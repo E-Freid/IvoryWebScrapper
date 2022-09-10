@@ -27,7 +27,8 @@ def get_item_info(url):
         try:
             item_price = driver.find_element(By.CLASS_NAME, 'print-no-eilat-price').text
         except:
-            item_price = driver.find_element(By.CLASS_NAME, 'discount-price').text  # not working good
+            item_price_box = driver.find_element(By.ID, 'productInfo')
+            item_price = item_price_box.find_element(By.CLASS_NAME, 'price_product_page').get_attribute('data-price')
         print(f'{item_name}, {item_id}, {item_price}')
         return item_id[:-1]
     except ConnectionError:
