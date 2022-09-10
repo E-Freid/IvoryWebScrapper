@@ -38,7 +38,7 @@ def get_item_info(url):
 def get_items_info(items_url):
     for url in items_url:
         new_item_idea = get_item_info(url)
-        # get new_item_info
+        # get new_item_info function
 
 
 def get_item_urls():
