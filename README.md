@@ -13,4 +13,4 @@ this program uses selenium library and functions to loop through the renewed pro
 1. performence improvent: at this moment, the program works as expected, however it can be slow at times. this is why performence improvment is the top priority
 2. some kind of starting menu: a menu at the start of the program, where users can use inputs to filter out some deals
 
-## DISCLAMER: I used to work at Ivory, and I am no longer employed there. This project was created for educational purposes only. Do not use this program for malicious purposes. I *DO NOT* take any responsibility for wrongful use of this program.
+## DISCLAMER: This project was created for educational purposes only. Do not use this program for malicious purposes. I *DO NOT* take any responsibility for wrongful use of this program. Ivory's website forbiddes the use of spiders\bots on the site. use at your own risk and responsibility. 
